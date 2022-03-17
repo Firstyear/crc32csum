@@ -1,0 +1,16 @@
+[package]
+name = "crc32csum"
+version = "0.1.0"
+edition = "2021"
+description = "Compute crc32c checksums easily"
+homepage = "https://github.com/Firstyear/crc32c"
+repostiory = "https://github.com/Firstyear/crc32c"
+readme = "README.md"
+keywords = ["crc", "crc32", "crc32c", "checksum"]
+categories = ["command-line-utilities"]
+license = "MPL-2.0"
+
+[dependencies]
+crc32c = "0.6"
+structopt = { version = "0.3", default-features = false }
+
